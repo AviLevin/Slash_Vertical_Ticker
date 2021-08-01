@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#newsticker-demo {
+    width: 47%;
+    height: 416px;
+    background: black;
+    padding: 5px 5px 0;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 12px;
+    margin: 20px auto;
+}
+
+#newsticker-demo a {
+    text-decoration: none;
+}
+
+#newsticker-demo img {
+    border: 2px solid #3b3333;
+}
+
+#newsticker-demo .title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 29px;
+    color: white;
+    margin: 2px 2px 2px;
+}
+
+.newsticker-jcarousellite {
+    width: 640px;
+    background-color: rgb(49, 48, 48);
+}
+
+.newsticker-jcarousellite ul li {
+    list-style: none;
+    display: block;
+    padding-bottom: 1px;
+    margin-bottom: 5px;
+    height: 100px;
+    width: 400px;
+    justify-content: flex-end;
+    margin-left: 200px;
+    border-top: 2px solid red;
+}
+
+.newsticker-jcarousellite .thumbnail {
+    float: right;
+    width: 110px;
+}
+
+.newsticker-jcarousellite .info {
+    float: left;
+    width: 190px;
+    margin-left: 96px;
+    color: red;
+}
+
+.newsticker-jcarousellite .info span.cat {
+    display: block;
+    font-size: 10px;
+    color: red;
+}
+
+.newsticker-jcarousellite .info p {
+    color: white;
+    width: 200px;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer p {
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
